@@ -1,5 +1,25 @@
 {
     "name": "ajiho/think-paginator-driver",
+    "description": "page driver for thinkphp6",
+    "keywords": ["thinkphp6", "pagedriver"],
+    "homepage": "https://gitee.com/ajiho/think-paginator-driver",
+    "type": "library",
     "license": "MIT",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "ajiho\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ajiho",
+            "email": "lujiahao@88.com",
+            "homepage": "https://gitee.com/ajiho",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "topthink/framework": "^6.0.0"
+    }
 }
